@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "swillclient",
+  "version": "1.0.0",
+  "name": "SWILL Client",
+  "description": "Utility client",
+  "authors": ["SwillWay"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.swill.client.SwillClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.5",
+    "fabric-api": "*"
+  }
+}
